@@ -15,6 +15,7 @@ button.addEventListener("click", () => {
     fetch(`http://www.omdbapi.com/?t=${input.value}&apikey=${apiKey}`)
     .then(response => response.json())
     .then(data => {
+        console.log(data)
         if (data.Response === "True") {
             output1.innerHTML = `<img src="${data.Poster}" alt="Movie Poster">`;
             output2.innerHTML = `<b>Title:</b> ${data.Title}`;
