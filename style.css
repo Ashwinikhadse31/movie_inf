@@ -1,5 +1,5 @@
 body {
-    background-image: url(/images/freevee-free-movies-tv-62e787121edb42cb865ed43557c7b506.png);
+    background-image: url(/images/renuu.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,19 +14,19 @@ section {
 }
 
 #maindiv {
-    width: 600px;
-    height: auto;
+    width: 1000px;
+    height: fit-content;
     background-image: url(/images/wp8731557.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50px;
     text-align: center;
-    color: rgb(166, 10, 114);
+    color: rgb(156, 15, 114);
 }
 
 #moviename {
     font-size: 40px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 #btn {
@@ -35,8 +35,8 @@ section {
 }
 
 #opt {
-    font-size: 20px;
-    color: rgb(245, 130, 203);
+    font-size: 30px;
+    color: rgb(9, 6, 6);
     margin-top: 20px;
 }
 
