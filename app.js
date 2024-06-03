@@ -7,7 +7,7 @@ let apiKey = `98add95b`;
 
 button.addEventListener("click", () => {
     output.innerHTML="";
-    fetch(`http://www.omdbapi.com/?t=${input.value}&apikey=${apiKey}`)
+    fetch(`https://www.omdbapi.com/?t=${input.value}&apikey=${apiKey}`)
     .then(response => 
         response.json())
 
